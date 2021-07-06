@@ -1,0 +1,123 @@
+/* mobile */
+
+header{
+  text-align: center;
+}
+.logo img{
+  width: 40%;
+}
+footer{
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container img{
+  width: 95%;
+  margin: 10px 0px 25px 5px;
+}
+.cancun img{
+  padding-top: 20px;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+p{
+  text-align: center;
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li{
+  list-style: none;
+  display: inline;
+}
+
+.col1, .col2, .col3{
+  width: 100%;
+}
+.col2 p, .col3 p {
+  display: none;
+}
+/* tablet */
+
+@media screen and (min-width: 568px) {
+  li{
+    float: left;
+    text-align: center;
+    padding-left: 20%;
+  }
+  .container  img{
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .container{
+    width: 95%;
+  }
+  .logo img{
+    width: 25%;
+  }
+  .cancun img{
+    width: 70%;
+  }
+  .explore h2{
+    clear: both;
+    text-align: center;
+  }
+
+  .col2 p, .col3 p {
+    display: contents;
+  }
+  .col1 {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+
+
+  }
+  .col2, .col3 {
+    width: 45%;
+    float: left;
+    padding: 20px 10px 50px 3%;
+    line-height: 1.5;
+
+  }
+  body{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+
+}
+ @media screen and (min-width:768px) {
+   .col1, .col2, .col3 {
+     width: 30%;
+     float: left;
+     padding: 20px 0 0px 3%;
+     line-height: 1.5;
+}
